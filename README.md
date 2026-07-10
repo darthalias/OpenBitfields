@@ -69,7 +69,7 @@ An attempt at a bitfield library.
                                    same bits.
 
  Example, ARM ProgramStatusRegister:
-
+```
  //ProgramStatusRegister is the containing union definition.
   union ProgramStatusRegister{
     OPEN_BITFIELD_STORAGE(uint32_t); // Define the data storage size.
@@ -101,3 +101,4 @@ An attempt at a bitfield library.
     OPEN_BITFIELD_OVERLAY(m4, 4,1);
 
   };
+```
